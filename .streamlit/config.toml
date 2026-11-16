@@ -1,0 +1,9 @@
+# Project-level Streamlit settings.
+# headless = true stops Streamlit from asking for an email address on the very
+# first run, so `./run.sh` starts the same way on any machine.
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false

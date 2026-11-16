@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.streamlit/secrets.toml
+.DS_Store
+history.json
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
